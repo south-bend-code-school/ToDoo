@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FCBFDF4D4AB45901F0BF22 /* Pods_Todoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73B20671A461B9680852E75 /* Pods_Todoo.framework */; };
+		F13A5FE41E5B466D0038F46A /* let.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FE31E5B466D0038F46A /* let.swift */; };
+		F13A5FE61E5B466D0038F46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FE51E5B466D0038F46A /* ViewController.swift */; };
+		F13A5FE91E5B466D0038F46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A5FE71E5B466D0038F46A /* Main.storyboard */; };
+		F13A5FEB1E5B466D0038F46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13A5FEA1E5B466D0038F46A /* Assets.xcassets */; };
+		F13A5FEE1E5B466D0038F46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A5FEC1E5B466D0038F46A /* LaunchScreen.storyboard */; };
+		F13A5FF61E5B4B680038F46A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F13A5FF51E5B4B680038F46A /* GoogleService-Info.plist */; };
+		F13A5FFA1E5B65D30038F46A /* NamedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FF91E5B65D30038F46A /* NamedNavigationController.swift */; };
+		F13A5FFC1E5B69450038F46A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FFB1E5B69450038F46A /* Event.swift */; };
+		F13A5FFE1E5B8D5E0038F46A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FFD1E5B8D5E0038F46A /* SignInViewController.swift */; };
+		F13A60001E5BD1CF0038F46A /* TinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A5FFF1E5BD1CF0038F46A /* TinderViewController.swift */; };
+		F13A60021E5BD6F80038F46A /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A60011E5BD6F80038F46A /* CalendarHelper.swift */; };
+		F13A60041E5BF8A10038F46A /* NamedSnackbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A60031E5BF8A10038F46A /* NamedSnackbarController.swift */; };
+		F14D94BE1E67727200B16E2A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D94BD1E67727200B16E2A /* ExploreViewController.swift */; };
+		F14D94C01E6799C900B16E2A /* Lobster 1.4.otf in Resources */ = {isa = PBXBuildFile; fileRef = F14D94BF1E67984000B16E2A /* Lobster 1.4.otf */; };
+		F14D94C21E679BC000B16E2A /* TodooPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D94C11E679BC000B16E2A /* TodooPageTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8C3B3F449F7B15397FD27FA /* Pods-Todoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todoo/Pods-Todoo.debug.xcconfig"; sourceTree = "<group>"; };
+		B73B20671A461B9680852E75 /* Pods_Todoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13A5FE01E5B466D0038F46A /* Todoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13A5FE31E5B466D0038F46A /* let.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = let.swift; sourceTree = "<group>"; };
+		F13A5FE51E5B466D0038F46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13A5FE81E5B466D0038F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13A5FEA1E5B466D0038F46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13A5FED1E5B466D0038F46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13A5FEF1E5B466D0038F46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13A5FF51E5B4B680038F46A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F13A5FF91E5B65D30038F46A /* NamedNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedNavigationController.swift; sourceTree = "<group>"; };
+		F13A5FFB1E5B69450038F46A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F13A5FFD1E5B8D5E0038F46A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F13A5FFF1E5BD1CF0038F46A /* TinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderViewController.swift; sourceTree = "<group>"; };
+		F13A60011E5BD6F80038F46A /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		F13A60031E5BF8A10038F46A /* NamedSnackbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedSnackbarController.swift; sourceTree = "<group>"; };
+		F14D94BD1E67727200B16E2A /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		F14D94BF1E67984000B16E2A /* Lobster 1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster 1.4.otf"; sourceTree = "<group>"; };
+		F14D94C11E679BC000B16E2A /* TodooPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodooPageTabBarController.swift; sourceTree = "<group>"; };
+		F81D53BC9DD8324A87E0F694 /* Pods-Todoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todoo/Pods-Todoo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13A5FDD1E5B466D0038F46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FCBFDF4D4AB45901F0BF22 /* Pods_Todoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113E08FF380F82F5C6F5F89B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3B3F449F7B15397FD27FA /* Pods-Todoo.debug.xcconfig */,
+				F81D53BC9DD8324A87E0F694 /* Pods-Todoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		530A2AD2F6B882A8059CC262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73B20671A461B9680852E75 /* Pods_Todoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13A5FD71E5B466D0038F46A = {
+			isa = PBXGroup;
+			children = (
+				F13A5FE21E5B466D0038F46A /* Todoo */,
+				F13A5FE11E5B466D0038F46A /* Products */,
+				113E08FF380F82F5C6F5F89B /* Pods */,
+				530A2AD2F6B882A8059CC262 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13A5FE11E5B466D0038F46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13A5FE01E5B466D0038F46A /* Todoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13A5FE21E5B466D0038F46A /* Todoo */ = {
+			isa = PBXGroup;
+			children = (
+				F13A5FE31E5B466D0038F46A /* let.swift */,
+				F14D94C11E679BC000B16E2A /* TodooPageTabBarController.swift */,
+				F13A5FE51E5B466D0038F46A /* ViewController.swift */,
+				F13A5FFB1E5B69450038F46A /* Event.swift */,
+				F13A60011E5BD6F80038F46A /* CalendarHelper.swift */,
+				F13A5FF91E5B65D30038F46A /* NamedNavigationController.swift */,
+				F13A5FE71E5B466D0038F46A /* Main.storyboard */,
+				F13A5FFF1E5BD1CF0038F46A /* TinderViewController.swift */,
+				F14D94BF1E67984000B16E2A /* Lobster 1.4.otf */,
+				F13A60031E5BF8A10038F46A /* NamedSnackbarController.swift */,
+				F14D94BD1E67727200B16E2A /* ExploreViewController.swift */,
+				F13A5FFD1E5B8D5E0038F46A /* SignInViewController.swift */,
+				F13A5FEA1E5B466D0038F46A /* Assets.xcassets */,
+				F13A5FEC1E5B466D0038F46A /* LaunchScreen.storyboard */,
+				F13A5FEF1E5B466D0038F46A /* Info.plist */,
+				F13A5FF51E5B4B680038F46A /* GoogleService-Info.plist */,
+			);
+			path = Todoo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13A5FDF1E5B466D0038F46A /* Todoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13A5FF21E5B466D0038F46A /* Build configuration list for PBXNativeTarget "Todoo" */;
+			buildPhases = (
+				3F59C3E1337096DC5B86ECBE /* [CP] Check Pods Manifest.lock */,
+				F13A5FDC1E5B466D0038F46A /* Sources */,
+				F13A5FDD1E5B466D0038F46A /* Frameworks */,
+				F13A5FDE1E5B466D0038F46A /* Resources */,
+				A6F167D41AEA2F30CC1B5EFD /* [CP] Embed Pods Frameworks */,
+				132570FE9884F8580289FA3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todoo;
+			productName = Todoo;
+			productReference = F13A5FE01E5B466D0038F46A /* Todoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13A5FD81E5B466D0038F46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "south-bend-code-school";
+				TargetAttributes = {
+					F13A5FDF1E5B466D0038F46A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WM2D4S8TUD;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F13A5FDB1E5B466D0038F46A /* Build configuration list for PBXProject "Todoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13A5FD71E5B466D0038F46A;
+			productRefGroup = F13A5FE11E5B466D0038F46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13A5FDF1E5B466D0038F46A /* Todoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13A5FDE1E5B466D0038F46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13A5FEE1E5B466D0038F46A /* LaunchScreen.storyboard in Resources */,
+				F14D94C01E6799C900B16E2A /* Lobster 1.4.otf in Resources */,
+				F13A5FF61E5B4B680038F46A /* GoogleService-Info.plist in Resources */,
+				F13A5FEB1E5B466D0038F46A /* Assets.xcassets in Resources */,
+				F13A5FE91E5B466D0038F46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132570FE9884F8580289FA3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Todoo/Pods-Todoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F59C3E1337096DC5B86ECBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F167D41AEA2F30CC1B5EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Todoo/Pods-Todoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13A5FDC1E5B466D0038F46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14D94C21E679BC000B16E2A /* TodooPageTabBarController.swift in Sources */,
+				F13A5FFC1E5B69450038F46A /* Event.swift in Sources */,
+				F13A5FE61E5B466D0038F46A /* ViewController.swift in Sources */,
+				F13A60001E5BD1CF0038F46A /* TinderViewController.swift in Sources */,
+				F13A5FE41E5B466D0038F46A /* let.swift in Sources */,
+				F13A5FFE1E5B8D5E0038F46A /* SignInViewController.swift in Sources */,
+				F14D94BE1E67727200B16E2A /* ExploreViewController.swift in Sources */,
+				F13A5FFA1E5B65D30038F46A /* NamedNavigationController.swift in Sources */,
+				F13A60041E5BF8A10038F46A /* NamedSnackbarController.swift in Sources */,
+				F13A60021E5BD6F80038F46A /* CalendarHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13A5FE71E5B466D0038F46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13A5FE81E5B466D0038F46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13A5FEC1E5B466D0038F46A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13A5FED1E5B466D0038F46A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13A5FF01E5B466D0038F46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13A5FF11E5B466D0038F46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13A5FF31E5B466D0038F46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C3B3F449F7B15397FD27FA /* Pods-Todoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WM2D4S8TUD;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Todoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.south-bend-code-school.Todoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F13A5FF41E5B466D0038F46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81D53BC9DD8324A87E0F694 /* Pods-Todoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WM2D4S8TUD;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Todoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.south-bend-code-school.Todoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13A5FDB1E5B466D0038F46A /* Build configuration list for PBXProject "Todoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13A5FF01E5B466D0038F46A /* Debug */,
+				F13A5FF11E5B466D0038F46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13A5FF21E5B466D0038F46A /* Build configuration list for PBXNativeTarget "Todoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13A5FF31E5B466D0038F46A /* Debug */,
+				F13A5FF41E5B466D0038F46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13A5FD81E5B466D0038F46A /* Project object */;
+}
